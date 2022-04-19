@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"reflect"
 )
 
 type Doctor struct {
@@ -11,7 +12,7 @@ type Doctor struct {
 }
 
 type Animal struct {
-       Name string
+       Name string `required max: "100"`
 	   Origin string
 }
 
@@ -40,4 +41,7 @@ func main()  {
 		b.SpeedKPH = 48
 		b.CanFly = false
 		fmt.Println(b.Name)
+		t := reflect.TypeOf(Animal{})
+		field, _ := t.FieldByName("Name")
+		fmt.Println(field.Tag)
 	}
