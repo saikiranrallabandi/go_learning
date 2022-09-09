@@ -1,0 +1,31 @@
+In my project I had used MVC, Singleton, Factory, Iterator and Template pattern.
+
+The project divided into 3 section UI, Business, Data Access layer.
+
+MVC Pattern: I had used at the presentation so model separated by controller.
+
+Singleton Pattern: To share common data access throughout the application.
+
+Factory Pattern: Between each layer for decoupling and centralizing object creation to avoid code complication.
+
+Iterator Pattern: For Providing tight encapsulation through middle tier object.
+
+Observer Pattern: For Sending notification to subscribed users.
+
+Facade Pattern: For delegating client requests to appropriate subsystem objects eg. The consumer calls one number and speaks with a customer service representative. The customer service representative acts as a Facade, providing an interface to the order fulfillment department, the billing department, and the shipping department.
+
+Template Pattern: For consistence vocabulary and naming convention for business objects.
+
+
+-----------------------------------------------------------------------Adapter
+     Use this design pattern when the objects implement a different interface as required by the client.
+Bridge pattern
+     The bridge pattern is a design pattern used in software engineering that is meant to "decouple an abstraction from its implementation so that the two can vary independently
+
+     The Bridge pattern lets you split the monolithic class into several class hierarchies. After this, you can change the classes in each hierarchy independently of the classes in the others. This approach simplifies code maintenance and minimizes the risk of breaking existing code.
+
+Adapter pattern is used after the application components are designed so that we can use them without modifying the source code. This is in contrast to the Bridge pattern, which is used before the components are designed.
+
+
+Composite Design Pattern
+       Composite Design pattern makes sense to use in cases when the composite and individual object needs to be treated in the same way from a client perspective.
