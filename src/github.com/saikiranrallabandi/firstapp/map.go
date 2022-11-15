@@ -20,4 +20,16 @@ func main()  {
 
 
 
+	// statePopulations := make(map[string]int)
+	// statePopulations = map[string]int{
+	// 	"California": 39250017,
+	// 	"Texas":      27862596,
+	// 	"Florida":    20612439,
+	// }
+	// for k, _ := range statePopulations {
+	// 	fmt.Println(k)
+	// }
+
+
+
 }
