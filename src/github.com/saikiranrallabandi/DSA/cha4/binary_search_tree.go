@@ -46,7 +46,7 @@ func (n *Node) Search (k int) bool{
    return true
 }
 
-func main() {
+func mains() {
 	tree := &Node{Key: 100}
 	tree.Insert(50)
 	tree.Insert(150)
