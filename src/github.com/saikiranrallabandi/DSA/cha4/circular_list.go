@@ -4,7 +4,7 @@ import (
 	"container/ring"
 	"fmt"
 )
-func main() {
+func mains1() {
 	var integers []int
 	integers = []int{1,3,5,7}
 	var circular_list *ring.Ring
